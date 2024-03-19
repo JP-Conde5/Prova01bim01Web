@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(function(){
+                $("#menu").load("html/navbar.html");
+            });
+        });
+    </script>
+    <title>Primeira Avaliação</title>
+</head>
+<body>
+        
+    <div id="menu"></div>
+    
+    <div class="jumbotron py-4">
+            <h1 class="display-3 text-center">1&ordf; avaliação do 1&ordm; bimestre</h1>
+            <p class="h3 text-center">Agenda de contatos.</p>
+    </div>
+     
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Cadastrar contato</h2>
+                    <p>Nesta opção você poderá cadastrar um novo contato na sua agenda. </p>
+                    <p><a class="btn btn-secondary" href="html/novoContato.html" role="button">Ver detalhes &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Exibir agenda</h2>
+                    <p>Nesta opção você verá uma listagem com todos os seus contatos cadastrados. </p>
+                    <p><a class="btn btn-secondary" href="scripts/exibirContatos.php" role="button">Ver detalhes &raquo;</a></p>
+                </div>
+                <div class="col-md-4">
+                    <h2>Pesquisar contato</h2>
+                    <p>Nesta opção você poderá pesquisar um contato pelo nome.</p>
+                    <p><a class="btn btn-secondary" href="html/pesquisar.html" role="button">Ver detalhes &raquo;</a></p>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    
+      <footer class="container">
+        <p>&copy; CEFET-MG - Varginha 2024</p>
+      </footer>
+</body>
+</html>
